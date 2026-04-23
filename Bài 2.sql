@@ -1,0 +1,12 @@
+
+CREATE TABLE SHIPPERS (
+ShipperID INT PRIMARY KEY AUTO_INCREMENT,
+ShipperName VARCHAR(255),
+Phone VARCHAR(20)
+);
+
+INSERT INTO SHIPPERS (ShipperName, Phone)
+VALUES ( 'Giao Hang Nhanh', '0901234567' );
+
+INSERT INTO SHIPPERS(ShipperName)
+VALUES ('Viettel Post' );
